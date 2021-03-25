@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Plotly.js -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>Notenverteilung:</h1> <br>
+  <div id="myDiv" height=1000><!-- Plotly chart will be drawn inside this DIV --></div>
+  <br>
+  <br>
+  <h1>Dateneingabe:</h1> <br>
+  <label for="valGET">Grundlagen der Elektrotechnik</label><br>
+  <input type="number" id="valGET" min="1" max="6" step="0.01">
+  <button id="btnGET" type="button" onclick="create('GET')">Submit GET</button>
+  <br><br>
+  <label for="valGP">Geschäftsprozesse</label><br>
+  <input type="number" id="valGP" min="1" max="6" step="0.01">
+  <button id="btnGP" type="button" onclick="create('GP')">Submit GP</button>
+  <br><br>
+  <label for="valInfI">Informatik I</label><br>
+  <input type="number" id="valInfI" min="1" max="6" step="0.01">
+  <button id="btnInfI" type="button" onclick="create('InfI')">Submit InfI</button>
+  <br><br>
+  <label for="valMatI">Mathematik I</label><br>
+  <input type="number" id="valMatI" min="1" max="6" step="0.01">
+  <button id="btnMatI" type="button" onclick="create('MatI')">Submit MatI</button>
+  <br>
+  <script>init();</script>
+  </body>
+</html>
