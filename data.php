@@ -10,7 +10,7 @@ function push($conn, $tname, $dat) {
 
 function getGrades($conn, $tname) {
 
-        $sql = "SELECT * FROM $tname";
+        $sql = "SELECT * FROM $tname ORDER BY rand()";
         $result = $conn->query($sql);
         $res = array();
         while($row = $result->fetch_assoc()) array_push($res, floatval($row["grade"]));
