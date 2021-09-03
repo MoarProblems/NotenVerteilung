@@ -34,10 +34,19 @@ function create(name) {
 
 function init() {
         data = JSON.parse(httpGet("data.php"));
+	//Semester 1
         enforce("GET");
         enforce("InfI");
         enforce("MatI");
         enforce("GP");
+	//Semester 2
+        enforce("GETII");
+        enforce("InfII");
+        enforce("MatII");
+        enforce("Phys");
+        enforce("Digi");
+        enforce("EMI");
+	
         var t = [];
         var n = 0;
         for (var key in data) {
