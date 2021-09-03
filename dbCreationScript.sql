@@ -15,7 +15,7 @@ CREATE TABLE MatII (grade float CHECK (grade BETWEEN 1 AND 6));
 
 CREATE TABLE GETII (grade float CHECK (grade BETWEEN 1 AND 6));
 
-CREATE TABLE INFII (grade float CHECK (grade BETWEEN 1 AND 6));
+CREATE TABLE InfII (grade float CHECK (grade BETWEEN 1 AND 6));
 
 CREATE TABLE Phys (grade float CHECK (grade BETWEEN 1 AND 6));
 
