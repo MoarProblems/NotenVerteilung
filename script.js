@@ -65,7 +65,7 @@ function init() {
 
         var layout = {
                 title: 'Distribution Graph',
-                height: 750
+                height: 1500
         }
 
         Plotly.newPlot('myDiv', t, layout);
