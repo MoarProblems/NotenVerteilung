@@ -46,6 +46,11 @@ function init() {
         enforce("Phys");
         enforce("Digi");
         enforce("EMI");
+	//Semester 3
+        enforce("MatIII");
+        enforce("GETIII");
+        enforce("SYS");
+        enforce("EBUS");
 	
         var t = [];
         var n = 0;
