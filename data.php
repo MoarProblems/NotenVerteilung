@@ -56,13 +56,13 @@ $data = array(
 		"Phys"=>getGrades($conn,"Phys"),
 		"Digi"=>getGrades($conn,"Digi"),
 		"EMI"=>getGrades($conn,"EMI"),
-		"GETII"=>getGrades($conn,"GETII")
+		"GETII"=>getGrades($conn,"GETII"),
 
 	//Semester 3
 		"MatIII"=>getGrades($conn,"MatIII"),
-		"GETIII"=>getGrades($conn,"GETIII")
+		"GETIII"=>getGrades($conn,"GETIII"),
 		"SYS"=>getGrades($conn,"SYS"),
-		"EBUS"=>getGrades($conn,"EBUS"),
+		"EBUS"=>getGrades($conn,"EBUS")
 );
 echo json_encode($data);
 
