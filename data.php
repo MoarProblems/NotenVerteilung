@@ -36,6 +36,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (!empty($dat["Digi"])) push($conn, "Digi", $dat);
         if (!empty($dat["EMI"])) push($conn, "EMI", $dat);
         if (!empty($dat["GETII"])) push($conn, "GETII", $dat);
+	
+	//Semester 3
+        if (!empty($dat["MatIII"])) push($conn, "MatIII", $dat);
+        if (!empty($dat["GETIII"])) push($conn, "GETIII", $dat);
+        if (!empty($dat["SYS"])) push($conn, "SYS", $dat);
+        if (!empty($dat["EBUS"])) push($conn, "EBUS", $dat);
 }
 $data = array(
 	//Semester 1
@@ -51,6 +57,12 @@ $data = array(
 		"Digi"=>getGrades($conn,"Digi"),
 		"EMI"=>getGrades($conn,"EMI"),
 		"GETII"=>getGrades($conn,"GETII")
+
+	//Semester 3
+		"MatIII"=>getGrades($conn,"MatIII"),
+		"GETIII"=>getGrades($conn,"GETIII")
+		"SYS"=>getGrades($conn,"SYS"),
+		"EBUS"=>getGrades($conn,"EBUS"),
 );
 echo json_encode($data);
 
