@@ -31,3 +31,16 @@ CREATE TABLE GETIII (grade float CHECK (grade BETWEEN 1 AND 6));
 CREATE TABLE SYS (grade float CHECK (grade BETWEEN 1 AND 6));
 
 CREATE TABLE EBUS (grade float CHECK (grade BETWEEN 1 AND 6));
+
+--Semester 4
+CREATE TABLE RegI (grade float CHECK (grade BETWEEN 1 AND 6));
+
+CREATE TABLE GETIV (grade float CHECK (grade BETWEEN 1 AND 6));
+
+CREATE TABLE EMII (grade float CHECK (grade BETWEEN 1 AND 6));
+
+CREATE TABLE MICR (grade float CHECK (grade BETWEEN 1 AND 6));
+
+CREATE TABLE EDS (grade float CHECK (grade BETWEEN 1 AND 6));
+
+CREATE TABLE SSIM (grade float CHECK (grade BETWEEN 1 AND 6));
