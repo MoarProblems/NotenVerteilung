@@ -51,6 +51,13 @@ function init() {
         enforce("GETIII");
         enforce("SYS");
         enforce("EBUS");
+	//Semester 4
+        enforce("RegI");
+        enforce("GETIV");
+        enforce("EMII");
+        enforce("MICR");
+        enforce("EDS");
+        enforce("SSIM");
 	
         var t = [];
         var n = 0;
@@ -75,7 +82,7 @@ function init() {
 
         var layout = {
                 title: 'Distribution Graph',
-                height: 1500
+                height: 2000
         }
 
         Plotly.newPlot('myDiv', t, layout);
