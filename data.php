@@ -70,7 +70,7 @@ $data = array(
 		"MatIII"=>getGrades($conn,"MatIII"),
 		"GETIII"=>getGrades($conn,"GETIII"),
 		"SYS"=>getGrades($conn,"SYS"),
-		"EBUS"=>getGrades($conn,"EBUS")
+		"EBUS"=>getGrades($conn,"EBUS"),
 	
 	//Semester 4
 		"RegI"=>getGrades($conn,"RegI"),
